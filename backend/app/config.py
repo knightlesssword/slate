@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 60 * 12
 
     # Comma-separated list of allowed CORS origins for the deployed frontend.
-    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173,https://slate-tau-henna.vercel.app"
 
     # Upload guard rails.
     max_upload_bytes: int = 1_000_000  # ~1 MB
